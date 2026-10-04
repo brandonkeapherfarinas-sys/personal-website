@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal website of Brandon Farinas, a third-year student who builds web projects and loves gaming.">
+  <title>Brandon Farinas | Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-header__logo" href="#home">Brandon F.</a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul class="site-nav__list">
+        <li><a class="site-nav__link" href="#resume">Resume</a></li>
+        <li><a class="site-nav__link" href="#projects">Projects</a></li>
+        <li><a class="site-nav__link" href="#about">About</a></li>
+        <li><a class="site-nav__link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero__inner">
+        <div class="hero__avatar" role="img" aria-label="Initials BF in a blue circle">BF</div>
+        <div class="hero__text">
+          <p class="hero__greeting">Hi, I'm</p>
+          <h1 class="hero__title">Brandon Keapher Farinas</h1>
+          <p class="hero__summary">Third-year student from Ilocos Sur. I build small web projects, study how computers really work, and game in my free time.</p>
+          <p class="hero__buttons">
+            <a class="button button--primary" href="#projects">See my projects</a>
+            <a class="button button--outline" href="#contact">Contact me</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="resume">
+      <h2 class="section__title">Resume</h2>
+
+      <div class="resume">
+        <article class="resume__block">
+          <h3 class="resume__heading">Education</h3>
+          <ul class="timeline">
+            <li class="timeline__item">
+              <h4 class="timeline__title">Bachelor's Degree, Third Year</h4>
+              <p class="timeline__place">College of Communication and Information Technology</p>
+              <p class="timeline__date">1st year to present</p>
+              <p>Currently studying web development, computer science theory, and programming.</p>
+            </li>
+            <li class="timeline__item">
+              <h4 class="timeline__title">Elementary to Senior High School</h4>
+              <p class="timeline__place">Divine Word College of Vigan</p>
+              <p class="timeline__date">Grade 1 to Grade 12</p>
+              <p>Finished all twelve years of basic education at the same school.</p>
+            </li>
+          </ul>
+        </article>
+
+        <article class="resume__block">
+          <h3 class="resume__heading">Work Experience</h3>
+          <ul class="timeline">
+            <li class="timeline__item">
+              <h4 class="timeline__title">Student Projects</h4>
+              <p class="timeline__place">School coursework</p>
+              <p>Built tools like a UTF converter, a PDA simulator, and a mini compiler for class. See the Projects section below.</p>
+            </li>
+          </ul>
+        </article>
+
+        <article class="resume__block">
+          <h3 class="resume__heading">Skills</h3>
+          <ul class="skills">
+            <li class="skills__item">HTML</li>
+            <li class="skills__item">CSS</li>
+            <li class="skills__item">JavaScript</li>
+            <li class="skills__item">Java</li>
+            <li class="skills__item">Compiler basics</li>
+            <li class="skills__item">Sorting algorithms</li>
+            <li class="skills__item">CPU scheduling</li>
+            <li class="skills__item">Technical writing</li>
+          </ul>
+        </article>
+
+        <article class="resume__block">
+          <h3 class="resume__heading">Languages</h3>
+          <ul class="skills">
+            <li class="skills__item">English</li>
+            <li class="skills__item">Filipino</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--tinted" id="projects">
+      <h2 class="section__title">Projects</h2>
+      <p class="section__intro">Some of the things I've built for school and for fun.</p>
+
+      <div class="projects">
+        <article class="project">
+          <h3 class="project__title">PDA Simulator</h3>
+          <p class="project__text">A simulator for a pushdown automaton that accepts the language aⁿb²ⁿ. Type a string and watch how the stack changes.</p>
+          <p class="project__tag">HTML, CSS, JavaScript</p>
+        </article>
+
+        <article class="project">
+          <h3 class="project__title">Unicode Converter</h3>
+          <p class="project__text">Converts text into UTF-8 and UTF-16 binary. I made a web version and a Java Swing version.</p>
+          <p class="project__tag">Web, Java</p>
+        </article>
+
+        <article class="project">
+          <h3 class="project__title">Mini Compiler</h3>
+          <p class="project__text">A lexer, a recursive descent parser, and an AST evaluator, all in one short JavaScript file.</p>
+          <p class="project__tag">JavaScript</p>
+        </article>
+
+        <article class="project">
+          <h3 class="project__title">Sorting Algorithm Analysis</h3>
+          <p class="project__text">A comparison of Merge Sort, Quick Sort, and Heap Sort and how each one behaves.</p>
+          <p class="project__tag">Algorithms</p>
+        </article>
+
+        <article class="project">
+          <h3 class="project__title">Teachable Machine Classifier</h3>
+          <p class="project__text">An object classification project where I trained a model to recognize things through a webcam.</p>
+          <p class="project__tag">Machine learning</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <h2 class="section__title">About Me</h2>
+
+      <div class="about">
+        <div class="about__story">
+          <p>I was born in Vigan City and grew up in Ilocos Sur. These days I live in Bantay, where I'm studying and building projects.</p>
+          <p>I like making creative digital things outside of schoolwork, like interactive tools and Roblox assets. My dream is to freelance and game all day.</p>
+          <p>I used to say yes to every favor until I burned out. Now I protect my time and energy first, and I say no when my plate is already full. My parents and my friends shaped who I am.</p>
+        </div>
+
+        <aside class="about__facts" aria-label="Quick facts">
+          <h3 class="about__heading">Quick facts</h3>
+          <dl class="facts">
+            <dt class="facts__label">Favorite color</dt>
+            <dd class="facts__value">Blue</dd>
+            <dt class="facts__label">Favorite food</dt>
+            <dd class="facts__value">Pizza and burger</dd>
+            <dt class="facts__label">Hobby</dt>
+            <dd class="facts__value">Playing video games</dd>
+            <dt class="facts__label">Motto</dt>
+            <dd class="facts__value">YOLO, you only live once</dd>
+            <dt class="facts__label">Value</dt>
+            <dd class="facts__value">Self-respect</dd>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section--tinted" id="contact">
+      <h2 class="section__title">Contact Me</h2>
+      <p class="section__intro">Want to work together or just say hi? Reach out any time.</p>
+
+      <ul class="contact">
+        <li class="contact__item">
+          <span class="contact__label">Email</span>
+          <a class="contact__link" href="mailto:brandonkeapherfarinas@gmail.com">brandonkeapherfarinas@gmail.com</a>
+        </li>
+        <li class="contact__item">
+          <span class="contact__label">GitHub</span>
+          <a class="contact__link" href="https://github.com/brandonkeapherfarinas-sys">github.com/brandonkeapherfarinas-sys</a>
+        </li>
+        <li class="contact__item">
+          <span class="contact__label">Location</span>
+          <span>Bantay, Ilocos Sur, Philippines</span>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Brandon Keapher Farinas. Built with only HTML and CSS.</p>
+  </footer>
+</body>
+</html>
